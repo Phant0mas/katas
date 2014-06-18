@@ -18,7 +18,7 @@ My setup for the various languages is as follows (may be subject to change,
 but it should give you a good idea on what I try these on if you want to compile
 them for any reason):
  * `Python`: `Python 3.4.1`
- * `C`: `Clang 3.3` or alternatively `gcc 4.9.0`
+ * `C`:`gcc 4.9.0`
 
 Contributing
 ------------
