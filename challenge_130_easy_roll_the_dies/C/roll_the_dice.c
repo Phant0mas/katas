@@ -26,6 +26,11 @@ main(int argc, char **argv)
   token = strtok(NULL, s);
   num_of_faces = atoi(token);
   
+  if(num_of_faces <=0 || num_of_faces > 100)
+    {
+      puts("Dice faces must be between 1-100");
+      exit(-1);
+    }
   printf("%dd%d dice(s) roll... ",num_of_dices,num_of_faces);
 
   srand(time(NULL));
